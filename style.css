@@ -1,0 +1,1401 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    background: gray;
+}
+
+/* styling the general grid container  */
+
+.grid-container {
+    position: relative;
+    display: grid;
+    width: 98%;
+    grid-template-columns: 1fr 4fr 1fr;
+    margin: 10px;
+    background: white;
+    border-radius: 10px;
+    height: 140vh;
+}
+
+/* styling the left section of the page */
+.row1 {
+    margin-left: 40px;
+    margin-top: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.row1 i {
+    color: crimson;
+    padding: 5px;
+}
+
+/* styling the navigation and its icons in the left row */
+.row2 {
+    border: none;
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.row2 ul li {
+    list-style: none;
+    margin-left: -20px;
+    color: gray;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.row2 ul li:hover {
+    color: black;
+}
+
+.row2 h4 {
+    margin-left: 20px;
+    color: gainsboro;
+}
+
+.row3 {
+    border: none;
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.row3 ul li {
+    list-style: none;
+    margin-left: -20px;
+    margin-top: -2px;
+    color: gray;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.row3 ul li:hover {
+    color: black;
+}
+
+.row3 h4 {
+    margin-left: 20px;
+    color: gainsboro;
+}
+
+.row4 {
+    border: none;
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.row4 ul li {
+    list-style: none;
+    margin-left: -20px;
+    color: gray;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.row4 ul li:hover {
+    color: black;
+}
+
+.row4 h4 {
+    margin-left: 20px;
+    color: gainsboro;
+}
+
+/* styling the imported icons of the left page section */
+ul li i {
+    color: gray;
+    line-height: 35px;
+    font-size: 20px;
+    padding-right: 10px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+ul li i:hover {
+    color: red;
+}
+
+/* styling the middle section of the page */
+
+
+.row5 {
+    display: flex;
+    margin-left: -28px;
+    margin-top: 10px;
+}
+
+.row5 ul li {
+    display: inline-block;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 5px;
+    font-size: 0.9rem;
+    color: gray;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.row5 ul li:hover {
+    color: black;
+}
+
+.row6 {
+    position: absolute;
+    top: 70px;
+    height: 50vh;
+    width: 60%;
+    background-position: center;
+    background-size: contain;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.row6 img {
+    width: 100%;
+    height: 47vh;
+    border-radius: 20px;
+}
+
+.content {
+    display: flex;
+}
+
+.friends {
+    display: flex;
+    position: relative;
+}
+
+.friends1 img {
+    position: absolute;
+    top: -340px;
+    left: 10px;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+}
+
+.friends2 img {
+    position: absolute;
+    top: -340px;
+    left: 35px;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+}
+
+.friends3 img {
+    position: absolute;
+    top: -340px;
+    left: 60px;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+}
+
+.content p {
+    margin-top: -320px;
+    margin-left: 110px;
+    font-weight: bold;
+    color: whitesmoke;
+    font-size: 0.6rem;
+
+}
+
+.mini-content {
+    position: absolute;
+    top: 170px;
+    left: 40px;
+}
+
+.mini-content h2 {
+    font-size: 2rem;
+    font-family: sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+.mini-content p {
+    font-size: 0.7rem;
+    font-family: sans-serif;
+    color: rgb(226, 201, 201);
+}
+
+#mini-btn {
+    background: red;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.mini-content span {
+    Background-color: rgba(87, 85, 85, 0.5);
+    margin: 10px;
+    height: 30px;
+    width: 150px;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.content i {
+    margin-top: -200px;
+    margin-left: 600px;
+    Background-color: rgba(87, 85, 85, 0.5);
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* styling the second row of the middle section */
+.write-up {
+    display: flex;
+    position: absolute;
+    top: 450px;
+    left: 265px;
+}
+
+.write-up h4 {
+    color: grey;
+    font-family: sans-serif;
+}
+
+/* styling the button key for access to other actor & actress available in the store */
+#arrow1 {
+    position: absolute;
+    left: 780px;
+    top: 17px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    padding: 3px;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
+
+#arrow2 {
+    position: absolute;
+    left: 820px;
+    top: 17px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    padding: 3px;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
+
+/* styling the actors & actress section with their respective information */
+.row7 {
+    display: flex;
+    position: absolute;
+    top: 389px;
+    height: 30vh;
+    width: 60%;
+    margin: 10px;
+    padding: 10px;
+    gap: 1rem;
+    top: 500px;
+}
+
+/* styling the actors and actress images */
+.movie1 img {
+    width: 204px;
+    height: 190px;
+    border-radius: 10px;
+}
+
+.movie2 img {
+    width: 204px;
+    height: 190px;
+    border-radius: 10px;
+}
+
+.movie3 img {
+    width: 204px;
+    height: 190px;
+    border-radius: 10px;
+}
+
+.movie4 img {
+    width: 204px;
+    height: 190px;
+    border-radius: 10px;
+}
+
+/* styling the actors & actors basic informations, which includes their names, movies acted and their ratings*/
+
+.stars {
+    position: absolute;
+    top: 120px;
+    left: 50px;
+    line-height: 5px;
+}
+
+.stars h4 {
+    color: white;
+}
+
+.stars p {
+    color: rgb(209, 205, 205);
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin-left: 16px;
+}
+
+.stars i {
+    color: orange;
+}
+
+.stars1 {
+    position: absolute;
+    top: 120px;
+    left: 270px;
+    line-height: 5px;
+}
+
+.stars1 h4 {
+    color: white;
+    margin-left: -17px;
+}
+
+.stars1 p {
+    color: rgb(209, 205, 205);
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin-left: 10px;
+}
+
+.stars1 i {
+    color: orange;
+
+}
+
+.stars2 {
+    position: absolute;
+    top: 120px;
+    left: 500px;
+    line-height: 5px;
+}
+
+.stars2 h4 {
+    color: white;
+}
+
+.stars2 p {
+    color: rgb(209, 205, 205);
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin-left: 16px;
+}
+
+.stars2 i {
+    color: orange;
+}
+
+.stars3 {
+    position: absolute;
+    top: 120px;
+    left: 720px;
+    line-height: 5px;
+}
+
+.stars3 h4 {
+    color: white;
+}
+
+.stars3 p {
+    color: rgb(209, 205, 205);
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin-left: 16px;
+}
+
+.stars3 i {
+    color: orange;
+}
+
+/* styling the button add key in the movie actor and actress section */
+
+.movie1 span {
+    position: absolute;
+    left: 160px;
+    top: 20px;
+    Background-color: rgba(87, 85, 85, 0.5);
+    margin: 10px;
+    height: 30px;
+    width: 33px;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.movie1 span:hover {
+    background-color: rgba(246, 16, 16, 0.1);
+}
+
+.movie2 span {
+    position: absolute;
+    left: 380px;
+    top: 20px;
+    Background-color: rgba(87, 85, 85, 0.5);
+    margin: 10px;
+    height: 30px;
+    width: 33px;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.movie2 span:hover {
+    background-color: rgba(246, 16, 16, 0.1);
+}
+
+
+.movie3 span {
+    position: absolute;
+    left: 600px;
+    top: 20px;
+    Background-color: rgba(87, 85, 85, 0.5);
+    margin: 10px;
+    height: 30px;
+    width: 33px;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.movie3 span:hover {
+    background-color: rgba(246, 16, 16, 0.1);
+}
+
+.movie4 span {
+    position: absolute;
+    left: 817px;
+    top: 20px;
+    Background-color: rgba(87, 85, 85, 0.5);
+    margin: 10px;
+    height: 30px;
+    width: 33px;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.movie4 span:hover {
+    background-color: rgba(246, 16, 16, 0.1);
+}
+
+/* styling the third row of the middle section */
+
+.write-up2 {
+    display: flex;
+    position: absolute;
+    top: 730px;
+    left: 265px;
+}
+
+.write-up2 h4 {
+    color: grey;
+    font-family: sans-serif;
+}
+
+.row7a {
+    display: flex;
+    position: absolute;
+    top: 389px;
+    height: 30vh;
+    width: 60%;
+    margin: 10px;
+    padding: 10px;
+    gap: 1rem;
+    top: 770px;
+}
+
+/* styling the actors images in the third column */
+.movie5 img {
+    width: 277px;
+    height: 140px;
+    border-radius: 10px;
+}
+
+.movie6 img {
+    width: 277px;
+    height: 140px;
+    border-radius: 10px;
+}
+
+.movie7 img {
+    width: 277px;
+    height: 140px;
+    border-radius: 10px;
+}
+
+/* styling the fonts in the third column */
+.movie5 h4 {
+    position: absolute;
+    padding: 20px;
+    margin-top: -15px;
+    color: gray;
+    background: white;
+    height: 50px;
+    width: 277px;
+    border: 1px solid gray;
+}
+
+.movie6 h4 {
+    position: absolute;
+    padding: 20px;
+    margin-top: -15px;
+    color: gray;
+    background: white;
+    height: 50px;
+    width: 277px;
+    border: 1px solid gray;
+}
+
+.movie7 h4 {
+    position: absolute;
+    padding: 20px;
+    margin-top: -15px;
+    color: gray;
+    background: white;
+    height: 50px;
+    width: 277px;
+    border: 1px solid gray;
+}
+
+
+/* styling the rigt section of the page */
+.col-3 {
+    margin-top: 70px;
+    position: relative;
+}
+
+/* styling the search bar in the right row */
+#search-bar {
+    border-radius: 20px;
+    width: 160px;
+    height: 30px;
+    padding-left: 20px;
+    margin-top: 15px;
+}
+
+.row8 {
+    position: absolute;
+    top: -55px;
+    right: 70px;
+
+}
+
+.row8 i {
+    position: absolute;
+    right: 135px;
+    top: 22px;
+    height: 70px;
+    width: 20px;
+}
+
+/* styling the popular movies & favourite movies section and their respective see more button */
+.row9 {
+    border: none;
+    width: 85%;
+    padding: 10px;
+    margin-top: 90px;
+    margin: 10px;
+    column-gap: 10px;
+    height: 300px;
+    position: relative;
+}
+
+.row9 ul li {
+    list-style: none;
+    line-height: 3rem;
+}
+
+.row9 ul li img {
+    height: 45px;
+    list-style: none;
+    margin-left: -40px;
+    position: relative;
+
+}
+
+#btn5 {
+    width: 130px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background: red;
+    color: white;
+    font-weight: bold;
+    margin-top: -20px;
+    cursor: pointer;
+}
+
+.row9 b {
+    font-size: 0.4rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: gold;
+    padding: 3px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: -5px;
+
+}
+
+.row9 a {
+    font-family: sans-serif;
+    font-size: 0.5rem;
+    font-weight: bold;
+}
+
+#title {
+    margin-left: 5px;
+    font-weight: bold;
+    font-family: sans-serif;
+    position: absolute;
+    margin-top: -20px;
+    font-size: 0.7rem;
+}
+
+.row9 p {
+    margin-top: -75px;
+    font-size: 0.5rem;
+    position: absolute;
+    color: gray;
+    margin-left: -4px;
+}
+
+/* media query for tablet screen */
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    /* styling the left section of the page */
+
+    .grid-container {
+        height: 110vh;
+    }
+
+    .row1 {
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+
+    .row1 i {
+        padding: 3px;
+    }
+
+    /* styling the navigation and its icons in the left row */
+    .row2 {
+        width: 120%;
+        padding: 3px;
+        margin: 3px;
+
+    }
+
+    .row2 ul li {
+        margin-left: -5px;
+        font-size: 0.8rem;
+    }
+
+    .row3 {
+        width: 40%;
+        padding: 3px;
+        margin: 3px;
+    }
+
+    .row3 ul li {
+        margin-left: -5px;
+        font-size: 0.8rem;
+    }
+
+    .row4 {
+        width: 80%;
+        padding: 3px;
+        margin: 3px;
+    }
+
+    .row4 ul li {
+        margin-left: -5px;
+        font-size: 0.8rem;
+    }
+
+
+    /* styling the imported icons of the left page section */
+    ul li i {
+        font-size: 14px;
+        padding-right: 5px;
+
+    }
+
+    .row5 {
+        margin-top: 12px;
+    }
+
+    .row5 ul li {
+        padding: 5px;
+        font-size: 0.8rem;
+    }
+
+    .row6 {
+        width: 60%;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .row6 img {
+        width: 100%;
+        height: 30vh;
+    }
+
+    .content {
+        display: flex;
+    }
+
+    .friends1 img {
+        top: -280px;
+        height: 30px;
+        width: 30px;
+        margin: 10px;
+    }
+
+    .friends2 img {
+        top: -280px;
+        height: 30px;
+        width: 30px;
+        margin: 10px;
+    }
+
+    .friends3 img {
+        top: -280px;
+        height: 30px;
+        width: 30px;
+        margin: 10px;
+    }
+
+    .content p {
+        margin-top: -260px;
+        margin-left: 110px;
+    }
+
+    .mini-content {
+        top: 120px;
+    }
+
+    .content i {
+        margin-top: -170px;
+        margin-left: 150px;
+
+    }
+
+    /* styling the second row of the middle section */
+
+
+    .write-up {
+        top: 400px;
+        left: 150px;
+    }
+
+    .write-up h4 {
+        font-size: 0.9rem;
+    }
+
+    /* styling the button key for access to other actor & actress available in the store */
+    #arrow1 {
+        position: absolute;
+        left: 340px;
+    }
+
+    #arrow2 {
+        left: 380px;
+    }
+
+    /* styling the actors & actress section with their respective information */
+    .row7 {
+        top: 450px;
+        gap: 0.5rem;
+    }
+
+    /* styling the actors and actress images */
+    .movie1 img {
+        width: 100px;
+    }
+
+    .movie2 img {
+        width: 100px;
+    }
+
+    .movie3 img {
+        width: 100px;
+    }
+
+    .movie4 img {
+        width: 100px;
+    }
+
+    /* styling the actors & actors basic informations, which includes their names, movies acted and their ratings*/
+
+    .stars {
+        top: 130px;
+        left: 20px;
+    }
+
+    .stars h4 {
+        font-size: 0.7rem;
+    }
+
+    .stars p {
+        font-size: 0.7rem;
+        margin-left: 14px;
+    }
+
+    .stars i {
+        font-size: 0.7rem;
+    }
+
+    .stars1 {
+        top: 130px;
+        left: 130px;
+    }
+
+    .stars1 h4 {
+        font-size: 0.6rem;
+        margin-left: -8px;
+    }
+
+    .stars1 p {
+        font-size: 0.7rem;
+        margin-left: 2px;
+    }
+
+    .stars1 i {
+        font-size: 0.7rem;
+
+    }
+
+    .stars2 {
+        top: 130px;
+        left: 240px;
+    }
+
+    .stars2 h4 {
+        font-size: 0.7rem;
+        margin-left: -4px;
+    }
+
+    .stars2 p {
+        font-size: 0.7rem;
+        margin-left: 4px;
+    }
+
+    .stars2 i {
+        font-size: 0.7rem;
+    }
+
+    .stars3 {
+        top: 130px;
+        left: 345px;
+    }
+
+    .stars3 h4 {
+        font-size: 0.7rem;
+        margin-left: 1px;
+    }
+
+    .stars3 p {
+        color: rgb(209, 205, 205);
+        font-weight: bold;
+        font-size: 0.7rem;
+        margin-left: 8px;
+    }
+
+    .stars3 i {
+        font-size: 0.7rem;
+    }
+
+    /* styling the button add key in the movie actor and actress section */
+
+    .movie1 span {
+        left: 60px;
+    }
+
+    .movie2 span {
+        left: 170px;
+    }
+
+    .movie3 span {
+        left: 278px;
+
+    }
+
+    .movie4 span {
+        left: 385px;
+    }
+
+    /* styling the third row of the middle section */
+
+    .write-up2 {
+        top: 680px;
+        left: 140px;
+    }
+
+    .write-up2 h4 {
+        color: grey;
+        font-family: sans-serif;
+    }
+
+    .row7a {
+        gap: 0.5rem;
+        top: 720px;
+    }
+
+    /* styling the actors images in the third column */
+    .movie5 img {
+        width: 133px;
+        height: 140px;
+    }
+
+    .movie6 img {
+        width: 133px;
+    }
+
+    .movie7 img {
+        width: 133px;
+    }
+
+    /* styling the fonts in the third column */
+    .movie5 h4 {
+        font-size: 0.65rem;
+        width: 130px;
+    }
+
+    .movie6 h4 {
+        font-size: 0.65rem;
+        width: 130px;
+    }
+
+    .movie7 h4 {
+        font-size: 0.65rem;
+        width: 130px;
+    }
+
+    /* styling the search bar in the right row */
+    #search-bar {
+        width: 100px;
+    }
+
+    .row8 {
+        right: 50px;
+
+    }
+
+    .row8 i {
+        right: 75px;
+    }
+
+    /* styling the popular movies & favourite movies section and their respective see more button */
+    .row9 {
+        column-gap: 15px;
+    }
+
+    .row9 h4{
+        font-size: 0.75rem;
+        font-weight: bold;
+        font-family: sans-serif;
+    }
+    #btn5 {
+        width: 120px;
+    }
+
+    .row9 b {
+        padding: 2px;
+    }
+
+}
+
+/* phone screen  */
+@media only screen and (max-width: 767px){
+
+.grid-container{
+margin: 5px;
+height: 115vh;
+}
+
+.row1 {
+    margin-left: 10px;
+  font-size: 0.6rem;
+  margin-top: 42px;
+}
+/* styling the navigation and its icons in the left row */
+.row2 ul li {
+    margin-left: -30px;
+   font-size: 0.4rem;
+}
+
+.row2 h4 {
+    margin-left: -10px;
+    font-size: 0.7rem;
+}
+
+.row3 ul li {
+    margin-left: -30px;
+    font-size: 0.4rem;
+}
+.row3 h4 {
+    margin-left: -10px;
+    font-size: 0.7rem;
+}
+.row4 ul li {
+    margin-left: -30px;
+    font-size: 0.4rem;
+  
+}
+.row4 h4 {
+    margin-left: -10px;
+    font-size: 0.7rem;
+}
+
+/* styling the imported icons of the left page section */
+ul li i {
+    
+    line-height: 30px;
+    font-size: 10px;
+    margin-left: -20px;
+}
+
+/* styling the middle section */
+.row5 {
+    margin-left: -48px;
+    margin-top: 25px;
+}
+
+.row5 ul li {
+    padding: 1px;
+    font-size: 0.5rem;
+    }
+
+.row6 img {
+    width: 90%;
+    height: 30vh;
+    margin-left: -35px;
+    margin-top: -10px;
+}
+
+.friends1 img {
+    top: -210px;
+    left: -35px;
+    height: 15px;
+    width: 15px;
+    margin: 10px;
+}
+
+.friends2 img {
+    top: -210px;
+    left: -23px;
+    height: 15px;
+    width: 15px;
+    margin: 10px;
+}
+
+.friends3 img {
+    top: -210px;
+    left: -11px;
+    height: 15px;
+    width: 15px;
+    margin: 10px;
+  
+}
+
+.content p {
+    margin-top: -200px;
+    margin-left:20px;
+    font-size: 0.4rem;
+
+}
+
+.mini-content {
+    position: absolute;
+    top: 95px;
+    left: -5px;
+}
+
+.mini-content h2 {
+    font-size: 1rem;
+}
+
+.mini-content p {
+    font-size: 0.3rem;
+}
+
+#mini-btn {
+    width: 60px;
+    height: 20px;
+    font-size: 0.6rem;
+}
+
+.mini-content span {
+    margin: 5px;
+    height: 25px;
+    width: 140px;
+    font-size: 1rem;
+}
+
+.content i {
+    margin-top: -130px;
+    margin-left: 10px;
+    height: 30px;
+    width: 30px;
+}
+
+/* styling the second row of the middle section */
+.write-up {
+    top: 288px;
+    left: 75px;
+}
+
+.write-up h4 {
+    font-size: 0.6rem;
+}
+
+/* styling the button key for access to other actor & actress available in the store */
+#arrow1 {
+    left: 120px;
+    top: 5px;
+   }
+
+#arrow2 {
+    left: 150px;
+    top: 5px;
+}
+
+/* styling the actors & actress section with their respective information */
+.row7 {
+   left: 50px;
+    top: 310px;
+}
+
+/* styling the actors and actress images */
+.movie1 img {
+    width: 185px;
+    height: 190px;
+    border-radius: 10px;
+}
+
+.movie2 img {
+    display: none;
+}
+
+.movie3 img {
+    display: none;
+}
+
+.movie4 img {
+    display: none;
+}
+
+/* styling the actors & actors basic informations, which includes their names, movies acted and their ratings*/
+
+.stars {
+    top: 120px;
+    left: 40px;
+}
+
+.stars p {
+    font-size: 1rem;
+}
+
+.stars1 {
+    display: none;
+}
+
+.stars2 {
+    display: none;
+}
+
+.stars3 {
+   display: none;
+}
+/* styling the button add key in the movie actor and actress section */
+
+.movie1 span {
+    left: 140px;
+}
+
+.movie2 span {
+display: none;
+}
+
+.movie3 span {
+display: none;
+}
+.movie4 span {
+  display: none;
+}
+
+/* styling the third row of the middle section */
+
+.write-up2 {
+    display: flex;
+    position: absolute;
+    top: 530px;
+    left: 75px;
+}
+
+.write-up2 h4 {
+    font-size: 0.6rem;
+}
+
+.row7a {
+    top: 560px;
+    left: 50px;
+}
+
+/* styling the actors images in the third column */
+.movie5 img {
+    width: 186px;
+    height: 140px;
+}
+
+.movie6 img {
+  display: none;
+}
+.movie7 img {
+  display: none;
+}
+
+/* styling the fonts in the third column */
+.movie5 h4 {
+    width: 186px;
+}
+
+.movie6 h4 {
+display: none;
+}
+
+.movie7 h4 {
+ display: none;
+}
+
+
+.col-3 {
+    margin-top: 70px;
+}
+
+/* styling the search bar in the right row */
+#search-bar {
+    width: 80px;
+    height: 30px;
+    padding-left: 20px;
+    margin-top: 15px;
+}
+
+.row8 {
+    top: -55px;
+    right: 25px;
+
+}
+
+.row8 i {
+    right: 55px;
+    top: 22px;
+}
+
+/* styling the popular movies & favourite movies section and their respective see more button */
+.row9{
+    width: 95%;
+    height: 300px;;
+}
+.row9 h4{
+font-size: 0.4rem;
+}
+
+.row9 ul li {
+
+    line-height: 3rem;
+}
+
+.row9 ul li img {
+    height: 45px;
+    position: relative;
+
+}
+
+#btn5 {
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background: red;
+    color: white;
+    font-weight: bold;
+    margin-top: -20px;
+    cursor: pointer;
+}
+
+.row9 b {
+    padding: 2px;
+
+}
+
+#title {
+    font-size: 0.49rem;
+}
+
+.row9 p {
+    margin-top: -80px;
+    font-size: 0.37rem;
+}
+
+}
